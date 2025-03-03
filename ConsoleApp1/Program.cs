@@ -12,6 +12,8 @@ internal class Program
         int[] nn = new int[5] { 2, 4, 6, 8, 10 };
 
         Console.WriteLine(calculateAverage(nn));
+
+        // some changes on new feature branch 
     
     }
 
