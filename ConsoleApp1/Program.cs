@@ -30,6 +30,8 @@ internal class Program
     }
 
     static int calculateMax(int[] integers)
+
+        // main change 
     {
         int n = 0;
         for (int i = 0; i <= integers.Length; i++) {
