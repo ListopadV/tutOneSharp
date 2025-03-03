@@ -20,12 +20,23 @@ internal class Program
     static int calculateAverage(int[] integers)
     {
         int n = 0;
-        for (int i = 0; i < integers.Length; i++)
+        for (int i = 0; i <= integers.Length; i++)
         {
 
             n += integers[i];
         }
 
         return n / integers.Length;
+    }
+
+    static int calculateMax(int[] integers)
+    {
+        int n = 0;
+        for (int i = 0; i <= integers.Length; i++) {
+            if (integers[i] > n) {
+                n = integers[i];
+            }
+        }
+        return n;
     }
 }
